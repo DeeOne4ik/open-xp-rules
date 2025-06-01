@@ -1,0 +1,24 @@
+ContentAutoName: Task6_2_2_10_04
+ExpertContext:
+  Created: 22.05.2025
+  Updated: 01.06.2025
+  KnowledgeHolders:
+    - '10_04'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 1
+ObjectId: SEC-CR-777373258
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1202
+        - T1218
+EventDescriptions:
+  - Criteria: correlation_name = "Task6_2_2_10_04"
+    LocalizationId: corrname_Task6_2_2_10_04
