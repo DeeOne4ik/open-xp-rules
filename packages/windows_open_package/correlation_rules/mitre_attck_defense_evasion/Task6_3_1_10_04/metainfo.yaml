@@ -1,0 +1,25 @@
+ContentAutoName: Task6_3_1_10_04
+ExpertContext:
+  Created: 22.05.2025
+  Updated: 01.06.2025
+  KnowledgeHolders:
+    - '10_04'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 10
+ObjectId: SEC-CR-822455582
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1055
+      privilege-escalation:
+        - T1055
+EventDescriptions:
+  - Criteria: correlation_name = "Task6_3_1_10_04"
+    LocalizationId: corrname_Task6_3_1_10_04
